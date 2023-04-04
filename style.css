@@ -1,0 +1,27 @@
+:root {
+  --dark-blue: #316fff;
+  --grey: #777777;
+  --white: #ffffff;
+  --black: #000000;
+  --light-blue: #2c63e3;
+  --light-grey: #d9d9d9;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper .nav {
+  justify-content: space-between;
+}
