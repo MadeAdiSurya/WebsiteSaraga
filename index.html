@@ -14,22 +14,55 @@
     <title>Website Saraga</title>
   </head>
   <body>
-    <div class="wrapper">
-      <div class="nav">
-        <div class="logo-saraga">
-          <img src="./img/logo-saraga.png" alt="logo-saraga" />
-        </div>
-        <div class="menu-navbar">
-          <ul>
-            <li id="pesan"><h3>Pesan</h3></li>
-            <li id="beranda"><h3>Beranda</h3></li>
-            <li id="bantuan"><h3>Bantuan</h3></li>
-          </ul>
-        </div>
-        <div class="profile-icon">
-            <h4>Akun</h3>
+    <header>
+      <div class="wrapper">
+        <div class="nav">
+          <div class="logo-saraga">
+            <img src="./img/logo-saraga.png" alt="logo-saraga" />
+          </div>
+          <div class="menu-navbar">
+            <ul>
+              <li><a class="btn pesan" href="#">Pesan</a></li>
+              <li><a href="#">Beranda</a></li>
+              <li><a href="#">Bantuan</a></li>
+              <li><a class="profile-icon" href="#"></a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
+    </header>
+    <section id="home">
+      <div class="body-wrapper">
+        <div class="welcoming-words">
+          <h1>Salam Olahraga!</h1>
+          <h2>Silahkan pilih salah satu opsi untuk melanjutkan</h2>
+        </div>
+        <div class="home-slider">
+          <img src="./img/slider-beranda-1.png" alt="" />
+        </div>
+        <div class="home-menus">
+          <!-- Left Home Menu -->
+          <div class="home-menu left">
+            <div>
+              <img src="./img/explore-menu.svg" alt="" />
+            </div>
+            <h3>Explore</h3>
+            <p>Lihat daftar fasilitas olahraga yang tersedia di Saraga</p>
+            <a class="btn light" href="#">Lihat Selengkapnya</a>
+          </div>
+        </div>
+        <!-- Right Home Menu -->
+        <div class="home-menu right">
+          <div>
+            <img src="./img/ticket-menu.svg" alt="" />
+          </div>
+          <h3>Tiket & Penyewaan</h3>
+          <p>Pesan tiket masuk dan penyewaan fasilitas olahraga</p>
+          <a class="btn light" href="#">Lihat Selengkapnya</a>
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
   </body>
 </html>
