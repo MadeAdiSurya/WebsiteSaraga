@@ -78,7 +78,7 @@ ul li a {
 
 .body-wrapper {
   max-width: 1134px;
-  margin: 0 auto;
+  margin: 60px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
