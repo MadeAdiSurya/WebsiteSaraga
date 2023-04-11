@@ -245,3 +245,102 @@ footer {
 .footer-bottom .social-media a img {
   margin: 0 10px;
 }
+
+.wrapper .list-fasilitas {
+  padding: 92px 0;
+}
+.wrapper .list-fasilitas a {
+  text-decoration: none;
+}
+
+.wrapper .list-fasilitas .backward {
+  display: flex;
+  margin: 0;
+}
+
+.wrapper .list-fasilitas .backward h4 {
+  padding-left: 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #777777;
+  margin: 0;
+}
+
+.wrapper .list-fasilitas h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  /* line-height: 72px; */
+  color: #000000;
+  margin: 9px 0;
+}
+
+.wrapper .list-fasilitas .filter-menus {
+  display: flex;
+  gap: 47px;
+  margin-bottom: 0px;
+}
+
+.wrapper .list-fasilitas .filter-menus .filter h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+  transform: translateY(-40%);
+  position: absolute;
+}
+
+.wrapper .list-fasilitas .filter-menus .filter {
+  background: #316fff;
+  box-shadow: 0px 0px 19px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  padding: 0px 25px;
+  width: 130px;
+  height: 52px;
+  position: relative;
+}
+
+.wrapper .list-fasilitas .fasilitas-cards {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.wrapper .list-fasilitas .fasilitas-cards .fasilitas-card {
+  position: relative;
+  background: white rgba(0, 0, 0, 0.25);
+  width: 327px;
+  height: 352px;
+  border-radius: 8px;
+  box-shadow: 0px 9px 36px rgba(0, 0, 0, 0.2);
+  margin-top: 67px;
+}
+
+.wrapper .list-fasilitas .fasilitas-cards .fasilitas-card img {
+  position: absolute;
+  left: 84px;
+  right: 84px;
+  top: 50px;
+  bottom: 50px;
+}
+
+.wrapper .list-fasilitas .fasilitas-cards .fasilitas-card h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: var(--white);
+  position: absolute;
+  top: 280px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  background: var(--dark-blue);
+  padding: 12px 22px;
+  border-radius: 8px;
+}
