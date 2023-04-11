@@ -8,7 +8,7 @@ class Header extends HTMLElement {
             <div class="wrapper">
               <div class="nav">
                 <div class="logo-saraga">
-                  <img src="./img/logo-saraga.png" alt="logo-saraga" />
+                  <img src="../img/logo-saraga.png" alt="logo-saraga" />
                 </div>
                 <div class="menu-navbar">
                   <ul>
