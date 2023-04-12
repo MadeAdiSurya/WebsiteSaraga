@@ -493,7 +493,10 @@ footer {
 }
 
 .register-page {
-  margin: 92px 0;
+  margin-top: 92px;
+  margin-bottom: 0;
+  width: 100%;
+  height: 100vh;
 }
 
 .register-page .components {
@@ -518,6 +521,8 @@ footer {
   font-weight: 500;
   font-size: 20px;
   color: #000000;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 .register-page .right .card-register h4 {
   font-family: "Poppins", sans-serif;
@@ -530,6 +535,7 @@ footer {
   font-weight: 300;
   font-size: 14px;
   color: #000000;
+  margin-top: 0;
 }
 
 .register-page .right .card-register img {
@@ -544,6 +550,7 @@ footer {
 }
 .register-page .right .card-register h4 {
   margin-left: 32px;
+  margin-bottom: 4px;
 }
 .register-page .right .card-register .sso {
   text-decoration: none;
@@ -561,7 +568,81 @@ footer {
   color: #ffffff;
 }
 
-.register-page .right .card-register .form input {
+.register-page .right form input {
   width: 400px;
   height: 45px;
+  background: #ffffff;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 6px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.register-page .right form {
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 32px;
+}
+
+.register-page .right .action-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.register-page .right .action-login::after {
+  content: "";
+  background: var(--black);
+  height: 2px;
+  width: 85%;
+  position: absolute;
+  top: 85%;
+  left: 32px;
+}
+
+.register-page .right .action-login a {
+  text-decoration: none;
+  margin: 32px;
+  color: var(--black);
+}
+.register-page .right .action-go {
+  width: 111px;
+  height: 45px;
+  background: #316fff;
+  box-shadow: 0px 0px 19px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+}
+
+.register-page .right .end-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+}
+.register-page .right .end-action a {
+  text-decoration: none;
+}
+
+.register-page .right .action-go.create {
+  width: 278px;
+  height: 45px;
+  background: #316fff;
+  box-shadow: 0px 0px 19px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  margin-bottom: 32px;
 }
