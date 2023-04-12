@@ -14,13 +14,26 @@
 }
 
 .btn {
-  padding: 13px 12px;
-  background: var(--white);
   border-radius: 12px;
+  width: 104px;
+  height: 49px;
+  padding: 13px 12px;
 }
 
 .btn.pesan {
   color: var(--dark-blue);
+  background: var(--white);
+  text-align: center;
+}
+
+.btn.blue {
+  color: var(--white);
+  background: var(var(--dark-blue));
+  padding: 13px 12px;
+  width: 104px;
+  height: 49px;
+  border: solid var(--white) 2px;
+  text-align: center;
 }
 
 body {
