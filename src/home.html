@@ -11,46 +11,64 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/slider.css" />
     <title>Website Saraga</title>
   </head>
   <body>
     <!-- Header -->
     <header-elements></header-elements>
-
-    <section id="home">
-      <div class="body-wrapper">
-        <div class="welcoming-words">
-          <h1>Salam Olahraga!</h1>
-          <h2>Silahkan pilih salah satu opsi untuk melanjutkan</h2>
-        </div>
-        <div class="home-slider">
-          <img src="../img/slider-beranda-1-rev.png" alt="" />
-        </div>
-      </div>
-    </section>
-
-    <section id="home-display-menu">
-      <div class="home-menus">
-        <!-- Left Home Menu -->
-        <div class="home-menu left">
-          <div>
-            <img src="../img/explore-menu.svg" alt="" />
+    <section class="home-page">
+      <section class="home">
+        <div class="body-wrapper">
+          <div class="welcoming-words">
+            <h1>Salam Olahraga!</h1>
+            <h2>Silahkan pilih salah satu opsi untuk melanjutkan</h2>
           </div>
-          <h3>Explore</h3>
-          <p>Lihat daftar fasilitas olahraga yang tersedia di Saraga</p>
-          <a class="btn light" href="#">Lihat Selengkapnya</a>
-        </div>
 
-        <!-- Right Home Menu -->
-        <div class="home-menu right">
-          <div>
-            <img src="../img/ticket-menu.svg" alt="" />
+          <div class="slider">
+            <div class="home-slider">
+              <img id="first" src="../img/slider-beranda-1-rev.png" alt="" />
+            </div>
+            <a class="prev" id="prev">
+              <img src="../img/previous-icon.svg" alt="" />
+            </a>
+            <a class="next" id="next">
+              <img src="../img/next-icon.svg" alt="" />
+            </a>
+
+            <div class="dotbox">
+              <a class="dot" id="0"></a>
+              <a class="dot" id="1"></a>
+              <a class="dot" id="2"></a>
+              <a class="dot" id="3"></a>
+            </div>
           </div>
-          <h3>Tiket & Penyewaan</h3>
-          <p>Pesan tiket masuk dan penyewaan fasilitas olahraga</p>
-          <a class="btn light" href="#">Lihat Selengkapnya</a>
         </div>
-      </div>
+      </section>
+
+      <section id="home-display-menu">
+        <div class="home-menus">
+          <!-- Left Home Menu -->
+          <div class="home-menu left">
+            <div>
+              <img src="../img/explore-menu.svg" alt="" />
+            </div>
+            <h3>Explore</h3>
+            <p>Lihat daftar fasilitas olahraga yang tersedia di Saraga</p>
+            <a class="btn light" href="#">Lihat Selengkapnya</a>
+          </div>
+
+          <!-- Right Home Menu -->
+          <div class="home-menu right">
+            <div>
+              <img src="../img/ticket-menu.svg" alt="" />
+            </div>
+            <h3>Tiket & Penyewaan</h3>
+            <p>Pesan tiket masuk dan penyewaan fasilitas olahraga</p>
+            <a class="btn light" href="#">Lihat Selengkapnya</a>
+          </div>
+        </div>
+      </section>
     </section>
 
     <!-- Footer -->
@@ -58,5 +76,6 @@
     <!-- Script -->
     <script src="../components/header.js"></script>
     <script src="../components/footer.js"></script>
+    <script src="../components/slider.js"></script>
   </body>
 </html>

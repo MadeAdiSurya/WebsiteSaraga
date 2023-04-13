@@ -20,6 +20,14 @@
   padding: 13px 12px;
 }
 
+.btn.light {
+  border-radius: 12px;
+  width: 250px;
+  height: 49px;
+  padding: 13px 12px;
+  border-radius: 24px;
+}
+
 .btn.pesan {
   color: var(--dark-blue);
   background: var(--white);
@@ -83,6 +91,12 @@ ul li a {
   color: var(--white);
 }
 
+.home-page {
+  width: 100%;
+  height: 100vh;
+  margin-top: 92px;
+}
+
 .profile-icon {
   border-radius: 50%;
   padding: 12.5px 24.5px;
@@ -92,9 +106,9 @@ ul li a {
 .body-wrapper {
   max-width: 1134px;
   margin: 60px auto;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
 }
 
 .body-wrapper .welcoming-words {
@@ -695,4 +709,13 @@ footer {
 
 .explore-details .schedule .schedule-content h5 {
   font-weight: 500;
+}
+
+.swiper {
+  height: fit-content;
+}
+
+.swiper-slide img {
+  width: 100%;
+  border-radius: 10px;
 }

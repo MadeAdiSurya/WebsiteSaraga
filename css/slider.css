@@ -1,0 +1,56 @@
+:root {
+  --dark-blue: #316fff;
+  --grey: #777777;
+  --white: #ffffff;
+  --black: #000000;
+  --light-blue: #2c63e3;
+  --light-grey: #d9d9d9;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 301px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slider .home-slider {
+  display: block;
+}
+
+.home-page .home .prev {
+  position: absolute;
+  left: 0;
+  top: 38%;
+  cursor: pointer;
+}
+
+.home-page .home .next {
+  position: absolute;
+  right: 8px;
+  top: 42%;
+  cursor: pointer;
+}
+
+.home-page .home .slider .dotbox {
+  display: flex;
+  gap: 6px;
+  position: absolute;
+  top: 90%;
+  left: 515px;
+}
+
+.home-page .home .slider .dotbox .dot {
+  background: var(--white);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.home-page .home .slider .dotbox .dot:hover {
+  background: var(--light-grey);
+}
+
+.home-page .home .slider .dotbox .dot.active {
+  background: var(--dark-blue);
+}
