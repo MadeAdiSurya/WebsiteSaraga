@@ -49,6 +49,7 @@
 }
 .home-page .home .slider .dotbox .dot:hover {
   background: var(--light-grey);
+  cursor: pointer;
 }
 
 .home-page .home .slider .dotbox .dot.active {

@@ -10,6 +10,7 @@ let time = 3000;
 let i = 0;
 
 function changeImage() {
+  checkDot();
   slideImage.src = Images[i];
 
   if (i < Images.length - 1) {
@@ -18,15 +19,12 @@ function changeImage() {
     i = 0;
   }
   setTimeout("changeImage()", time);
-  checkDot();
-  console.log(i);
 }
 
 function clickedImage(x) {
   slideImage.src = Images[x];
   i = x;
   checkDot();
-  console.log(i);
 }
 
 const dot_1 = document.getElementById("0");
