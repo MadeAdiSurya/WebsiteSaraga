@@ -93,8 +93,7 @@ ul li a {
 
 .home-page {
   width: 100%;
-  height: 100vh;
-  margin-top: 92px;
+  margin: 92px 0;
 }
 
 .profile-icon {
@@ -106,9 +105,6 @@ ul li a {
 .body-wrapper {
   max-width: 1134px;
   margin: 60px auto;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
 }
 
 .body-wrapper .welcoming-words {
@@ -906,13 +902,14 @@ footer {
   padding: 0 24px;
   height: 50px;
   width: 130px;
-  background: var(--dark-blue);
+  background: var(--light-grey);
   border-radius: 10px;
 }
 .wrapper .action-password .content .action-back .back h4 {
-  color: white;
+  color: var(--black);
   text-align: center;
   transform: translateY(50%);
+  font-weight: 600;
 }
 
 .wrapper .action-password .content form {
@@ -960,6 +957,6 @@ footer {
   background: var(--grey);
 }
 
-.wrapper .action-forget-pass .btn.search {
+.wrapper .action-forget-pass .btn.search h4 {
   color: var(--white);
 }
