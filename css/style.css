@@ -307,6 +307,16 @@ footer {
   display: flex;
   gap: 47px;
   margin-bottom: 0px;
+  cursor: pointer;
+}
+.wrapper .list-fasilitas .filter-menus .filter.active {
+  background: var(--light-blue);
+  color: var(--white);
+}
+
+.wrapper .list-fasilitas .filter-menus .filter:hover {
+  background: var(--light-blue);
+  color: var(--white);
 }
 
 .wrapper .list-fasilitas .filter-menus .filter h3 {
@@ -315,7 +325,6 @@ footer {
   font-size: 20px;
   line-height: 30px;
   text-align: center;
-  color: #000000;
   text-decoration: none;
   transform: translateY(-40%);
   position: absolute;
@@ -323,19 +332,25 @@ footer {
 
 .wrapper .list-fasilitas .filter-menus .filter {
   background: white rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 0px 19px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--black);
   border-radius: 100px;
   padding: 0px 25px;
   width: 130px;
   height: 52px;
+  color: #000000;
   position: relative;
 }
 
 .wrapper .list-fasilitas .fasilitas-cards {
   display: flex;
-  gap: 50px;
+  gap: 60px;
   flex-wrap: wrap;
   width: 100%;
+}
+
+.wrapper .list-fasilitas .fasilitas-cards .fasilitas-card.hidden {
+  display: none;
 }
 
 .wrapper .list-fasilitas .fasilitas-cards .fasilitas-card {
