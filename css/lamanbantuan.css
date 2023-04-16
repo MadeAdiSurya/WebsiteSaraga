@@ -1,0 +1,93 @@
+.wrapper .laman-bantuan {
+  margin: 92px 0;
+}
+
+.wrapper .laman-bantuan .accordion-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper .laman-bantuan .accordion {
+  width: 750px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-shadow: 0px 0px 19px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 24px;
+}
+
+.wrapper .laman-bantuan h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #000000;
+}
+
+.wrapper .laman-bantuan .accordion .accordion-item {
+  margin-bottom: 24px;
+}
+.wrapper .laman-bantuan .accordion .accordion-item .accordion-item-header {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.wrapper
+  .laman-bantuan
+  .accordion
+  .accordion-item
+  .accordion-item-header.active::after {
+  content: "\002B";
+  padding-right: 24px;
+}
+.wrapper
+  .laman-bantuan
+  .accordion
+  .accordion-item
+  .accordion-item-header.active {
+  color: red;
+}
+.wrapper
+  .laman-bantuan
+  .accordion
+  .accordion-item
+  .accordion-item-header::after {
+  padding-right: 24px;
+  content: "\2212";
+}
+
+.wrapper .laman-bantuan .accordion .accordion-item .accordion-item-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.wrapper .laman-bantuan .accordion .accordion-item .accordion-item-body.active {
+  max-height: 100px;
+}
+
+.laman-bantuan .kategori {
+  display: flex;
+  justify-content: flex-end;
+  gap: 70px;
+}
+
+.laman-bantuan .kategori .content {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 440px;
+  height: auto;
+}
+
+.laman-bantuan .kategori .content .sub-kategori {
+  display: flex;
+  align-items: center;
+}
