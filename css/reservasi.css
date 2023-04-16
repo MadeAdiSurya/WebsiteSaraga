@@ -1,0 +1,112 @@
+.wrapper .reservation {
+  margin: 92px 0;
+}
+
+.wrapper .reservation a {
+  text-decoration: none;
+}
+
+.reservation .header-option {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  position: relative;
+}
+.reservation .header-option .accordion {
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  box-shadow: 0px 0px 19px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding-left: 24px;
+  max-height: 70px;
+  margin: 0;
+  overflow: hidden;
+  width: 250px;
+}
+
+.reservation .header-option .accordion .accordion-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.reservation .header-option .accordion .accordion-header::after {
+  content: "\02C5";
+  padding-right: 36px;
+}
+.reservation .header-option .accordion .accordion-header.active::after {
+  content: "\02C5";
+  margin-right: 36px;
+  transform: rotate(180deg);
+}
+
+.reservation .header-option .accordion .accordion-body a {
+  color: var(--black);
+}
+
+.reservation .header-option .accordion .accordion-body .option {
+}
+.reservation .header-option .accordion .accordion-body {
+  margin-top: 12px;
+  color: var(--black);
+  background: var(--white);
+  box-shadow: 0px 0px 19px 2px rgba(0, 0, 0, 0.25);
+  padding-left: 24px;
+  width: 250px;
+  border-radius: 10px;
+  transform: translateX(-24px);
+}
+
+.reservation .header-option .accordion.active {
+  max-height: 1000px;
+}
+.reservation .header-option .search {
+  padding: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 10px;
+  background: var(--dark-blue);
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.reservation .list-reservasi {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.reservation .list-reservasi .reservasi-card {
+  margin-top: 36px;
+  max-width: 270px;
+}
+.reservation .list-reservasi .reservasi-card .time-schedule {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+.reservation .list-reservasi .reservasi-card .time-schedule .time {
+  margin: 0;
+  padding: 0;
+  background: var(--white);
+  box-shadow: 0px 0px 19px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  height: auto;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+.reservation .list-reservasi .reservasi-card .time-schedule .time.booked {
+  background: var(--light-grey);
+  box-shadow: none;
+  border-radius: 1px solid var(--black);
+  border-radius: 10px;
+}
