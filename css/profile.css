@@ -1,7 +1,7 @@
 .wrapper .profile {
   margin: 92px 0;
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 
 .wrapper .profile h3 {
@@ -65,6 +65,19 @@
 .profile .profile-card .body-profile .left .detail {
   width: 270px;
   height: 55px;
+  background: var(--white);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: var(--dark-blue);
+  cursor: pointer;
+  border: 1px solid var(--dark-blue);
+}
+.profile .profile-card .body-profile .left .active {
+  width: 270px;
+  height: 55px;
   background: var(--dark-blue);
   border-radius: 10px;
   display: flex;
@@ -83,17 +96,29 @@
   border: 1px solid #ff3e3e;
   gap: 10px;
 }
+.profile .profile-card .body-profile .left .detail.exit:hover {
+  background: #ff3e3e;
+  color: var(--white);
+}
 
 .profile .profile-card .body-profile .right {
   width: 720px;
-  height: 414px;
+  height: auto;
   background: #ffffff;
   border: 2px solid #777777;
   border-radius: 10px;
   padding-left: 12px;
-  position: relative;
   margin-bottom: 32px;
 }
+
+.profile .profile-card .body-profile .right .first.hidden {
+  display: none;
+}
+
+.profile .profile-card .body-profile .right .second.hidden {
+  display: none;
+}
+
 .profile .profile-card .body-profile .right form input {
   width: 680px;
   height: 45px;
@@ -106,12 +131,154 @@
 }
 
 .profile .profile-card .body-profile .right .submit {
-  position: absolute;
-  right: 32px;
-  top: 85%;
   padding: 12px;
   background: var(--dark-blue);
   border-radius: 10px;
   color: white;
   cursor: pointer;
+  margin: 24px;
+  margin-left: 70%;
+  width: auto;
+  text-align: center;
+}
+
+.profile .profile-card .body-profile .right .third {
+  margin: 12px;
+}
+.profile .profile-card .body-profile .right .third.hidden {
+  display: none;
+}
+.profile .profile-card .body-profile .right .third .booking {
+  width: 650px;
+  height: auto;
+  background: #ffffff;
+  box-shadow: 0px 0px 19px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 24px;
+}
+.profile .profile-card .body-profile .right .third .booking.inactive h3 {
+  background: var(--light-grey);
+  color: var(--black);
+}
+.profile .profile-card .body-profile .right .third .menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 24px;
+}
+.profile .profile-card .body-profile .right .third .menu a {
+  width: 135px;
+  height: 30px;
+  text-decoration: none;
+  border: 1px solid var(--light-blue);
+  text-align: center;
+  border-radius: 10px;
+  color: var(--dark-blue);
+  cursor: pointer;
+}
+.profile .profile-card .body-profile .right .third .menu a.active {
+  background: var(--dark-blue);
+  border-radius: 10px;
+  color: var(--white);
+}
+.profile .profile-card .body-profile .right .third .menu a:hover {
+  background: var(--dark-blue);
+  border-radius: 10px;
+  color: var(--white);
+}
+
+.profile .profile-card .body-profile .right .third .booking .head-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+}
+.profile .profile-card .body-profile .right .third .booking.inactive.notshow {
+  display: none;
+}
+
+.profile
+  .profile-card
+  .body-profile
+  .right
+  .third
+  .booking
+  .head-info
+  .info-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.profile
+  .profile-card
+  .body-profile
+  .right
+  .third
+  .booking
+  .head-info
+  .info-left
+  span {
+  color: #777777;
+}
+.profile .profile-card .body-profile .right .third .booking .head-info .price {
+  margin-right: 24px;
+}
+.profile .profile-card .body-profile .right .third .booking h3 {
+  background: var(--dark-blue);
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  height: 60px;
+  border-radius: 10px;
+  padding-left: 12px;
+  text-align: justify;
+  padding-top: 12px;
+}
+.profile .profile-card .body-profile .right .third .booking .foot-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 12px;
+  margin-top: 0;
+}
+.profile .profile-card .body-profile .right .third .booking .foot-info h5 {
+  padding: 5px;
+  background: var(--dark-blue);
+  color: var(--white);
+  border-radius: 10px;
+  width: auto;
+  text-align: center;
+}
+.profile
+  .profile-card
+  .body-profile
+  .right
+  .third
+  .booking
+  .foot-info
+  .inactive {
+  background: var(--light-grey);
+  color: var(--black);
+  width: auto;
+}
+.profile
+  .profile-card
+  .body-profile
+  .right
+  .third
+  .booking
+  .foot-info
+  .more-info {
+  padding: 5px;
+  background: var(--white);
+  color: var(--black);
+  border-radius: 10px;
+  width: 80px;
+  border: 1px solid var(--black);
+  text-align: center;
 }

@@ -30,22 +30,22 @@
           <div class="body-profile">
             <div class="left">
               <a>
-                <div class="detail">
+                <div class="detail active" id="prfl-1">
                   <h3>Detail Akun</h3>
                 </div>
               </a>
               <a>
-                <div class="detail">
+                <div class="detail" id="prfl-2">
                   <h3>Ubah Kata Sandi</h3>
                 </div>
               </a>
               <a>
-                <div class="detail">
+                <div class="detail" id="prfl-3">
                   <h3>Riwayat Pemesanan</h3>
                 </div>
               </a>
               <a>
-                <div class="detail exit">
+                <div class="detail exit" id="prfl-4">
                   <h3>Keluar</h3>
                   <img src="../img/keluar-icon.svg" />
                 </div>
@@ -53,25 +53,129 @@
             </div>
 
             <div class="right">
-              <h4>Tanggal Daftar</h4>
-              <form action="">
-                <input
-                  class="unmodifed"
-                  type="text"
-                  placeholder="2022-12-20 22:22:22"
-                />
-              </form>
-              <h4>Nama</h4>
-              <form action="">
-                <input type="text" placeholder="John Douglas" />
-              </form>
-              <h4>Email</h4>
-              <form action="">
-                <input type="text" placeholder="sample@email.com" />
-              </form>
-              <a>
-                <div class="submit">Simpan Perubahan</div>
-              </a>
+              <div class="first">
+                <h4>Tanggal Daftar</h4>
+                <form action="">
+                  <input
+                    class="unmodifed"
+                    type="text"
+                    placeholder="2022-12-20 22:22:22"
+                    style="background: var(--light-grey)"
+                    readonly
+                  />
+                </form>
+                <h4>Nama</h4>
+                <form action="">
+                  <input type="text" placeholder="John Douglas" />
+                </form>
+                <h4>Email</h4>
+                <form action="">
+                  <input type="text" placeholder="sample@email.com" />
+                </form>
+                <a>
+                  <div class="submit">Simpan Perubahan</div>
+                </a>
+              </div>
+
+              <div class="second hidden">
+                <h4>Kata Sandi Lama</h4>
+                <form action="">
+                  <input type="password" />
+                </form>
+                <h4>Kata sandi baru</h4>
+                <form action="">
+                  <input type="password" />
+                </form>
+                <h4>Verifikasi kata sandi baru</h4>
+                <form action="">
+                  <input type="password" />
+                </form>
+                <a>
+                  <div class="submit">Ubah kata sandi</div>
+                </a>
+              </div>
+
+              <div class="third hidden">
+                <div class="menu">
+                  <a id="pesanan">Pesanan aktif</a>
+                  <a id="minggu">Minggu ini</a>
+                  <a id="bulan">Bulan ini</a>
+                  <a id="filter">Filter</a>
+                </div>
+
+                <div class="booking">
+                  <div class="head-info">
+                    <div class="info-left">
+                      <span>Booking ID</span>
+                      <h5>00123456</h5>
+                    </div>
+
+                    <div class="price">
+                      <h5>Rp 40.0000</h5>
+                    </div>
+                  </div>
+                  <h3>Kolam Renang</h3>
+
+                  <div class="foot-info">
+                    <h5>1 Tiket</h5>
+                    <h5 class="more-info">Detail ></h5>
+                  </div>
+                </div>
+                <div class="booking">
+                  <div class="head-info">
+                    <div class="info-left">
+                      <span>Booking ID</span>
+                      <h5>00123457</h5>
+                    </div>
+
+                    <div class="price">
+                      <h5>Rp 40.0000</h5>
+                    </div>
+                  </div>
+                  <h3>Lapangan Basket</h3>
+
+                  <div class="foot-info">
+                    <h5>Reservari 18 Mei 2023</h5>
+                    <h5 class="more-info">Detail ></h5>
+                  </div>
+                </div>
+                <div class="booking inactive">
+                  <div class="head-info">
+                    <div class="info-left">
+                      <span>Booking ID</span>
+                      <h5>00123458</h5>
+                    </div>
+
+                    <div class="price">
+                      <h5>Rp 40.0000</h5>
+                    </div>
+                  </div>
+                  <h3>Kolam Renang</h3>
+
+                  <div class="foot-info">
+                    <h5 class="inactive">Sudah Terpakai</h5>
+                    <h5 class="more-info">Detail ></h5>
+                  </div>
+                </div>
+                <div class="booking inactive">
+                  <div class="head-info">
+                    <div class="info-left">
+                      <span>Booking ID</span>
+                      <h5>00123459</h5>
+                    </div>
+
+                    <div class="price">
+                      <h5>Rp 40.0000</h5>
+                    </div>
+                  </div>
+                  <h3>Lapangan basket</h3>
+
+                  <div class="foot-info">
+                    <h5 class="inactive">Sudah Terpakai</h5>
+                    <h5 class="more-info">Detail ></h5>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -80,6 +184,7 @@
 
     <footer-elements></footer-elements>
 
+    <script src="../components/profile.js"></script>
     <script src="../components/footer.js"></script>
     <script src="../components/header.js"></script>
   </body>
