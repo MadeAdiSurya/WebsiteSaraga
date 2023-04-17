@@ -1,0 +1,332 @@
+.wrapper .payments {
+  margin: 92px 0;
+}
+
+.wrapper .payments .content {
+  display: flex;
+  gap: 50px;
+}
+
+.wrapper .payments h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #000000;
+  padding-left: 12px;
+}
+
+.wrapper .payments .content h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+}
+.wrapper .payments .content h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+}
+
+.wrapper .payments .content .left .tips {
+  width: 653px;
+  height: 109px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  padding-left: 12px;
+  padding-bottom: 0;
+  padding-top: 12px;
+  position: relative;
+}
+
+.wrapper .payments .content .left .tips::after {
+  content: url("../img/payment-tips.svg");
+  position: absolute;
+  top: 20px;
+  left: 92%;
+}
+.wrapper .payments .content .left h3 {
+  padding-left: 12px;
+}
+
+.wrapper .payments .content .left .tips h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper .payments .content .left .tips h4 span {
+  font-weight: 700;
+}
+
+.wrapper .payments .content .left .date {
+  margin-bottom: 24px;
+  margin-top: 0;
+  padding-left: 12px;
+}
+
+.wrapper .payments .content .left .date h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper .payments .content .left .date h4 span {
+  font-weight: 700;
+}
+
+.wrapper .payments .content .left .pax {
+  margin-bottom: 24px;
+  margin-top: 0;
+  padding-left: 12px;
+}
+
+.wrapper .payments .content .left .pax h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper .payments .content .left .pax h4 span {
+  font-weight: 700;
+}
+
+.wrapper .payments .content .left .notes {
+  margin-bottom: 24px;
+  margin-top: 0;
+  padding-left: 12px;
+  background: rgba(187, 187, 187, 0.1);
+  border-radius: 10px;
+  width: 630px;
+  height: 63px;
+  position: relative;
+}
+
+.wrapper .payments .content .left .notes h4,
+.wrapper .payments .content .left .notes p {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper .payments .content .left .notes::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.2);
+  height: 1px;
+  width: 640px;
+  position: absolute;
+  top: calc(100% + 20px);
+  left: -2%;
+}
+
+.wrapper .payments .content .left .voucher {
+  margin-bottom: 24x;
+}
+
+.wrapper .payments .content .left .voucher .kupon {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper .payments .content .left .voucher form {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.wrapper .payments .content .left .voucher form input {
+  width: 221px;
+  height: 33px;
+  border: 0;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 12px;
+  border-radius: 10px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.wrapper .payments .content .left .voucher form .submit {
+  height: 33px;
+  padding: 6px;
+  text-align: center;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.wrapper .payments .content .left .method {
+  margin-bottom: 24x;
+}
+
+.wrapper .payments .content .left .method .top {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper .payments .content .left .method .option {
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 617px;
+  height: 43px;
+  padding-left: 12px;
+  position: relative;
+  cursor: pointer;
+}
+.wrapper .payments .content .left .method .option h4 {
+  transform: translateY(-50%);
+}
+
+.wrapper .payments .content .left .method .option::after {
+  content: "\276D";
+  position: absolute;
+  left: 95%;
+  top: 4px;
+  font-size: 24px;
+}
+
+.wrapper .payments .content .left .foot-payment {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .payments .content .left .foot-payment .left {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.wrapper .payments .content .left .foot-payment .right {
+  margin-right: 36px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.wrapper .payments .content .left .foot-payment .right h4 {
+  font-weight: 700;
+}
+
+.wrapper .payments .content .right .box-info {
+  width: 427px;
+  height: auto;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.wrapper .payments .content .right .box-info .top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  position: relative;
+}
+
+.wrapper .payments .content .right .box-info .top::after {
+  content: "";
+  height: 1px;
+  width: 388px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: calc(100% + 10px);
+}
+
+.wrapper .payments .content .right .box-info .top .description {
+  margin-top: 12px;
+}
+
+.wrapper .payments .content .right .box-info .top .description h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper .payments .content .right .box-info .body {
+  margin: 0;
+  padding: 0;
+}
+.wrapper .payments .content .right .box-info .body .price {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper .payments .content .right .box-info .body .price .price-top {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .payments .content .right .box-info .body .middle {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.wrapper .payments .content .right .box-info .body .middle .left {
+  margin: 0;
+  padding: 0;
+}
+.wrapper .payments .content .right .box-info .body .middle .right {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper .payments .content .right .box-info .body .middle .right h4 span {
+  color: #4c914e;
+}
+
+.wrapper .payments .content .right .box-info .body .bottom {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding-top: 12px;
+}
+.wrapper .payments .content .right .box-info .body .bottom::before {
+  content: "";
+  height: 1px;
+  width: 388px;
+  background: rgba(0, 0, 0, 0.2);
+  top: -10%;
+  position: absolute;
+}
+.wrapper .payments .content .right .box-info .body .bottom h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #000000;
+}
+
+.wrapper .payments .content .right .action {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .payments .content .right .action .konfirmasi {
+  width: 264px;
+  height: 50px;
+  background: #316fff;
+  border-radius: 10px;
+  margin-top: 24px;
+  text-align: center;
+  margin-left: 12px;
+  cursor: pointer;
+}
+.wrapper .payments .content .right .action .konfirmasi h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+  transform: translateY(-30%);
+}
+.wrapper .payments .content .right .action h3 span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-decoration-line: underline;
+  color: #ff0000;
+  margin-right: 12px;
+  cursor: pointer;
+}
