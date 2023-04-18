@@ -531,11 +531,10 @@ footer {
   margin-top: 50px;
 }
 
-.register-page {
+.wrapper .register-page {
   margin-top: 92px;
   margin-bottom: 0;
   width: 100%;
-  height: 100vh;
 }
 
 .register-page .components {
@@ -983,7 +982,7 @@ footer {
 }
 
 .wrapper .action-forget-pass .btn.cancel {
-  background: var(--grey);
+  background: var(--light-grey);
 }
 
 .wrapper .action-forget-pass .btn.search h4 {
