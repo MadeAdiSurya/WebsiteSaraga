@@ -99,7 +99,7 @@ ul li a {
 .profile-icon {
   border-radius: 50%;
   padding: 12.5px 24.5px;
-  background: var(--light-grey);
+  background: var(--black);
 }
 
 .body-wrapper {

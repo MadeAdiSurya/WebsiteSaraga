@@ -27,6 +27,31 @@
   font-weight: 700;
   font-size: 32px;
   color: #000000;
+  margin: 50px 0;
+}
+
+.wrapper .laman-bantuan .foot {
+  display: flex;
+  margin: 50px 0;
+  flex-direction: column;
+}
+
+.wrapper .laman-bantuan .foot h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper .laman-bantuan .foot .items {
+  display: flex;
+  margin: 50px 0;
+  justify-content: space-around;
+}
+
+.wrapper .laman-bantuan .foot .items .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper .laman-bantuan .accordion .accordion-item {
@@ -74,8 +99,9 @@
 
 .laman-bantuan .kategori {
   display: flex;
-  justify-content: flex-end;
-  gap: 70px;
+  justify-content: center;
+  gap: 50px;
+  margin-left: 60px;
 }
 
 .laman-bantuan .kategori .content {
