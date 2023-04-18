@@ -149,6 +149,11 @@ ul li a {
   align-items: center;
   text-align: center;
   justify-content: center;
+  transition: 0.2s ease-in-out;
+}
+
+.home-menu:hover {
+  background: var(--light-grey);
 }
 
 .home-menu img {
