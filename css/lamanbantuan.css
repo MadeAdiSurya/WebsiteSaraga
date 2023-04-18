@@ -51,7 +51,7 @@
   .accordion
   .accordion-item
   .accordion-item-header.active {
-  color: red;
+  color: var(--dark-blue);
 }
 .wrapper
   .laman-bantuan
@@ -90,4 +90,11 @@
 .laman-bantuan .kategori .content .sub-kategori {
   display: flex;
   align-items: center;
+}
+
+.laman-bantuan .kategori .content h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #000000;
 }
