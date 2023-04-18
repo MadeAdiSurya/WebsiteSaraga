@@ -1,10 +1,10 @@
 const slideImage = document.getElementById("first");
 
 const Images = [];
-Images[0] = "../img/slider-beranda-1-rev.png";
-Images[1] = "../img/slider-beranda-2.png";
-Images[2] = "../img/slider-beranda-3.png";
-Images[3] = "../img/slider-beranda-4.png";
+Images[0] = "./img/slider-beranda-1-rev.png";
+Images[1] = "./img/slider-beranda-2.png";
+Images[2] = "./img/slider-beranda-3.png";
+Images[3] = "./img/slider-beranda-4.png";
 
 let time = 3000;
 let i = 0;

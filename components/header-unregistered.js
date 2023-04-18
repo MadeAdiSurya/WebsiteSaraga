@@ -15,7 +15,7 @@ class UnregisteredHeader extends HTMLElement {
             <li><a href="#">BERANDA</a></li>
             <li><a href="#">BANTUAN</a></li>
             <li><a class="btn pesan" href="#">REGISTER</a></li>
-            <li><a class="btn blue" href="../src/login.html">LOGIN</a></li>
+            <li><a class="btn blue" href="./src/login.html">LOGIN</a></li>
           </ul>
         </div>
       </div>
