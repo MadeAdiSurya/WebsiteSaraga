@@ -111,6 +111,11 @@
   text-align: center;
   cursor: pointer;
 }
+.reservation .list-reservasi .reservasi-card .time-schedule .time a {
+  text-decoration: none;
+  color: var(--dark-blue);
+}
+
 .reservation .list-reservasi .reservasi-card .time-schedule .time.booked {
   background: var(--light-grey);
   box-shadow: none;

@@ -305,6 +305,11 @@
   display: flex;
   justify-content: space-between;
 }
+
+.wrapper .payments .content .right .action a {
+  text-decoration: none;
+}
+
 .wrapper .payments .content .right .action .konfirmasi {
   width: 264px;
   height: 50px;
@@ -320,7 +325,7 @@
   font-weight: 700;
   font-size: 20px;
   color: #ffffff;
-  transform: translateY(-30%);
+  transform: translateY(30%);
 }
 .wrapper .payments .content .right .action h3 span {
   font-family: "Poppins", sans-serif;
@@ -408,6 +413,11 @@
 .wrapper .confirm-payment .body {
   margin-left: 24px;
 }
+
+.wrapper .confirm-payment .action a {
+  text-decoration: none;
+}
+
 .wrapper .confirm-payment .body .accord .accord-body {
   display: none;
 }
@@ -537,6 +547,10 @@
   gap: 50px;
   margin-top: 24px;
 }
+
+.purchase .action a {
+  text-decoration: none;
+}
 .purchase .action .riwayat {
   background: #777777;
   border-radius: 10px;
@@ -559,5 +573,5 @@
   font-size: 24px;
   text-align: center;
   color: #ffffff;
-  transform: translateY(-40%);
+  transform: translateY(20%);
 }
