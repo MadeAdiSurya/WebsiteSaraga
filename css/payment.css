@@ -330,3 +330,234 @@
   margin-right: 12px;
   cursor: pointer;
 }
+
+.wrapper .confirm-payment {
+  margin: 92px 0;
+}
+
+.wrapper .confirm-payment h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #000000;
+}
+
+.wrapper .confirm-payment h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+.wrapper .confirm-payment h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.wrapper .confirm-payment .total h4 span {
+  font-weight: 700;
+  color: #0066ff;
+}
+
+.wrapper .confirm-payment .total {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.wrapper .confirm-payment .total::after {
+  content: "";
+  width: 1135px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 100%;
+}
+
+.wrapper .confirm-payment .interval {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.wrapper .confirm-payment .interval::after {
+  content: "";
+  width: 1135px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 100%;
+}
+
+.wrapper .confirm-payment .interval h4 span {
+  font-weight: 700;
+  color: #0066ff;
+}
+
+.wrapper .confirm-payment .interval h5 {
+  margin: 0;
+  padding: 0;
+  margin-left: 25px;
+  transform: translateY(-100%);
+}
+
+.wrapper .confirm-payment .body .type {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+.wrapper .confirm-payment .body {
+  margin-left: 24px;
+}
+.wrapper .confirm-payment .body .accord .accord-body {
+  display: none;
+}
+.wrapper .confirm-payment .body .accord .accord-head {
+  margin-left: 40px;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.wrapper .confirm-payment .body .accord {
+  position: relative;
+}
+
+.wrapper .confirm-payment .body .accord .accord-head::after {
+  content: "";
+  width: 1050px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 100%;
+}
+
+.wrapper .confirm-payment .body .rekening {
+  margin: 0;
+  transform: translateY(-50%);
+  padding-left: 40px;
+}
+.wrapper .confirm-payment .body .rekening h5 span {
+  color: #0066ff;
+}
+
+.wrapper .confirm-payment .action {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.wrapper .confirm-payment .action .ubah {
+  background: #787878;
+  border-radius: 10px;
+  color: var(--white);
+  padding: 10px 50px;
+  cursor: pointer;
+}
+.wrapper .confirm-payment .action .konfirmasi {
+  background: #0066ff;
+  border-radius: 10px;
+  color: var(--white);
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+.wrapper .purchase {
+  margin: 92px 0;
+}
+
+.wrapper .purchase .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.wrapper .purchase .top h1,
+.wrapper .purchase .top h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper .purchase .top h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  color: #2b6efb;
+}
+.wrapper .purchase .top h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #000000;
+}
+
+.data-pesanan h3 {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #000000;
+}
+
+.data-pesanan .content .info h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+
+.data-pesanan .content .info h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+}
+
+.data-pesanan .content {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.data-pesanan .content::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 100%;
+}
+
+.purchase .action {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 24px;
+}
+.purchase .action .riwayat {
+  background: #777777;
+  border-radius: 10px;
+  width: 333px;
+  height: 56px;
+  text-align: center;
+  cursor: pointer;
+}
+.purchase .action .cetak {
+  background: #0066ff;
+  border-radius: 10px;
+  width: 333px;
+  height: 56px;
+  cursor: pointer;
+}
+
+.purchase .action h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  transform: translateY(-40%);
+}

@@ -1,0 +1,100 @@
+.wrapper .e-ticket {
+  margin: 92px 0;
+  /* height: 100vh; */
+}
+
+.wrapper .e-ticket .box-ticket {
+  background: white rgba(0, 0, 0, 0.25);
+  width: 1000px;
+  height: auto;
+  box-shadow: 0px 9px 36px rgba(0, 0, 0, 0.2);
+  margin-top: 67px;
+}
+
+.wrapper .box-ticket h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  color: var(--white);
+  font-style: italic;
+  text-align: center;
+  padding: 24px;
+  background: var(--dark-blue);
+}
+
+.wrapper .e-ticket .box-ticket .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  position: relative;
+}
+
+.wrapper .e-ticket .box-ticket .content::before {
+  content: "";
+  width: 600px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+}
+
+.wrapper .e-ticket .box-ticket .content::after {
+  content: "";
+  width: 600px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 100%;
+}
+
+.wrapper .e-ticket .box-ticket .left h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+.wrapper .e-ticket .box-ticket h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+.wrapper .e-ticket .box-ticket .image {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper .e-ticket .box-ticket img {
+  width: 500px;
+  height: 500px;
+  text-align: center;
+}
+
+.wrapper .e-ticket .box-ticket .code {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 24px 0;
+}
+
+.wrapper .e-ticket .box-ticket .code h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+  margin: 0;
+}
+
+.wrapper .e-ticket .box-ticket .description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper .e-ticket .box-ticket .description {
+  background: var(--dark-blue);
+  color: var(--white);
+}
