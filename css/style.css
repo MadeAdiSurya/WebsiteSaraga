@@ -345,6 +345,7 @@ footer {
   height: 52px;
   color: #000000;
   position: relative;
+  transition: 0.2s ease-in-out;
 }
 
 .wrapper .list-fasilitas .fasilitas-cards {
@@ -921,6 +922,7 @@ footer {
   top: 65%;
   left: 40%;
   cursor: pointer;
+  text-decoration: none;
 }
 .wrapper .action-password .content .action-back .back {
   padding: 0 24px;
@@ -957,6 +959,9 @@ footer {
   gap: 12px;
   justify-content: flex-end;
   margin: 24px 0;
+}
+.wrapper .action-forget-pass a {
+  text-decoration: none;
 }
 
 .wrapper .action-forget-pass .action h4 {

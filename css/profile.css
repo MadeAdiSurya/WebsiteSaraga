@@ -222,6 +222,22 @@
   span {
   color: #777777;
 }
+
+.profile .profile-card .body-profile .right .third .booking .foot-info a {
+  text-decoration: none;
+}
+
+.profile
+  .profile-card
+  .body-profile
+  .right
+  .third
+  .booking
+  .foot-info
+  .more-info:hover {
+  background: var(--light-grey);
+  transition: 0.2s ease-in-out;
+}
 .profile .profile-card .body-profile .right .third .booking .head-info .price {
   margin-right: 24px;
 }

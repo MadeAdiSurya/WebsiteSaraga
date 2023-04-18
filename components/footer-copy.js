@@ -7,7 +7,7 @@ class Footer extends HTMLElement {
     this.innerHTML = `<footer>
         <div class="footer-wrapper">
           <div class="logo-saraga footer">
-            <img src="../img/logo-saraga-footer.svg" alt="" />
+            <img src="img/logo-saraga-footer.svg" alt="" />
           </div>
           <div class="headline-footer">
             <div class="footer-layanan">
@@ -34,28 +34,28 @@ class Footer extends HTMLElement {
               <h4>Pembayaran</h4>
               <div class="footer-description pembayaran">
                 <div class="payment-support">
-                  <a href=""><img src="../img//qris.svg" alt="" /></a>
-                  <a href=""><img src="../img//dana.svg" alt="" /></a>
-                  <a href=""><img src="../img//shopeepay.svg" alt="" /></a>
-                  <a href=""><img src="../img//gopay.svg" alt="" /></a>
-                  <a href=""><img src="../img//ovo.svg" alt="" /></a>
-                  <a href=""><img src="../img//mandiri.svg" alt="" /></a>
-                  <a href=""><img src="../img//visa.svg" alt="" /></a>
-                  <a href=""><img src="../img//master.svg" alt="" /></a>
-                  <a href=""><img src="../mg//bni.svg" alt="" /></a>
-                  <a href=""><img src="../img//bca.svg" alt="" /></a>
+                  <a href=""><img src="img//qris.svg" alt="" /></a>
+                  <a href=""><img src="img//dana.svg" alt="" /></a>
+                  <a href=""><img src="img//shopeepay.svg" alt="" /></a>
+                  <a href=""><img src="img//gopay.svg" alt="" /></a>
+                  <a href=""><img src="img//ovo.svg" alt="" /></a>
+                  <a href=""><img src="img//mandiri.svg" alt="" /></a>
+                  <a href=""><img src="img//visa.svg" alt="" /></a>
+                  <a href=""><img src="img//master.svg" alt="" /></a>
+                  <a href=""><img src="img//bni.svg" alt="" /></a>
+                  <a href=""><img src="img//bca.svg" alt="" /></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="footer-bottom">
             <div class="copyright">
-              <a href=""><img src="../img/copyright.svg" alt="" /></a>
+              <a href=""><img src="img/copyright.svg" alt="" /></a>
               <h4>2022 Saraga ITB</h4>
             </div>
             <div class="social-media">
-              <a href=""><img src="../img/facebook.svg" alt="" /></a>
-              <a href=""><img src="../img/instagram.svg" alt="" /></a>
+              <a href=""><img src="img/facebook.svg" alt="" /></a>
+              <a href=""><img src="img/instagram.svg" alt="" /></a>
             </div>
           </div>
         </div>
